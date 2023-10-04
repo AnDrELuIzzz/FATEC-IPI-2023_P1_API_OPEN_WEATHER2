@@ -1,10 +1,7 @@
-
-André Luiz Araujo Carvalho <br>
-Giovanna Fonseca da Silva <br>
-Renan Hnerique Moreira Batista <br>
-Lucas Vinicius Chaves da Silva <br>
-
-
+**André Luiz Araujo Carvalho**   RA: 2040482212035 <br>
+**Giovanna Fonseca da Silva** <br>
+**Renan Henrique Moreira Batista** <br>
+**Lucas Vinicius Chaves da Silva** <br>
 
 # Consumindo APIs do OpenWeatherMap com Node.js
 
@@ -12,36 +9,35 @@ Este projeto demonstra como consumir duas APIs do OpenWeatherMap com Node.js. A 
 
 ## Requisitos
 
-* Node.js v16.14.2 ou superior
-* Pacote Axios
-* Pacote dotenv
+- Node.js v16.14.2 ou superior
+- Pacote Axios
+- Pacote dotenv
 
 ## Instalação
 
+```bash
 npm install
+Configuração
+Crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
-## Configuração
-
-Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis de ambiente:
-
+plaintext
+Copy code
 APPID=YOUR_API_KEY
 Q=NOME_DA_CIDADE
 LANGUAGE=PT-BR
+Substitua YOUR_API_KEY pelo seu token de API do OpenWeatherMap.
 
-Substitua `YOUR_API_KEY` pelo seu token de API do OpenWeatherMap.
-
-## Uso
-
+Uso
 Para executar o projeto, execute o seguinte comando:
 
+bash
+Copy code
 node index
-
 O projeto irá imprimir as seguintes informações:
 
 Condições atuais:
 Sensação térmica: 25.0°C
 Descrição: Céu claro
-
 Explicação do código
 O código usa o pacote axios para fazer as chamadas às APIs do OpenWeatherMap. O pacote dotenv é usado para carregar as variáveis de ambiente do arquivo .env.
 
