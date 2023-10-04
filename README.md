@@ -6,7 +6,7 @@ Este projeto demonstra como consumir duas APIs do OpenWeatherMap com Node.js. A 
 
 * André Luiz Araujo Carvalho, RA: 2040482212035
 * Giovanna Fonseca da Silva  RA: 2040482212026
-* Renan Hnerique Moreira Batista  RA: 2040482212040
+* Renan Henrique Moreira Batista  RA: 2040482212040
 * Lucas Vinicius Chaves da Silva
 
 ## Introdução
