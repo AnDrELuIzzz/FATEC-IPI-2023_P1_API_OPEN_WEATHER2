@@ -40,8 +40,8 @@ axios
         const feelsLike = res2.main.feels_like;
         const description = res2.weather[0].description;
 
-        console.log("Condições atuais:");
-        console.log(`Sensação térmica: ${(feelsLike - 273, 15)}°C`);
+        console.log("Condições atuais");
+        console.log(`Sensação térmica: ${(feelsLike - 273.0)}°C`);
         console.log(`Descrição: ${description}`);
       })
       .catch((error) => {
