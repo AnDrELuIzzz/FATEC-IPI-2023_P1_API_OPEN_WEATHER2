@@ -34,9 +34,9 @@ npm install
 Configuração
 Para configurar o projeto, crie um arquivo .env na raiz do projeto e adicione as seguintes variáveis de ambiente:
 
-APPID=YOUR_API_KEY
-Q=NOME_DA_CIDADE
-LANGUAGE=PT-BR
+appid=YOUR_API_KEY <br>
+q=NOME_DA_CIDADE <br>
+language=PT-BR <br>
 
 
 Substitua `YOUR_API_KEY` pelo seu token de API do OpenWeatherMap.
