@@ -1,5 +1,5 @@
 
-André Luiz Araujo Carvalho
-Giovanna Fonseca da Silva
-Renan Hnerique Moreira Batista
-Lucas Vinicius Chaves da Silva
+André Luiz Araujo Carvalho <br>
+Giovanna Fonseca da Silva <br>
+Renan Hnerique Moreira Batista <br>
+Lucas Vinicius Chaves da Silva <br>
